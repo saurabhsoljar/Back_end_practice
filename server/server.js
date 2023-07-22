@@ -11,14 +11,12 @@
 // })
 
 
-const express = require('express')
+const app = require("./app.js")
 
-const app = express()
+const PORT = 8000
 
-app.get("/",(req, res) =>{
-    res.send("<h1>Welcome to our custom server</h1>")
-})
 
-app.listen(4000,()=>{
+
+app.listen(PORT,()=>{
     console.log("server: is FileListing at PORT 4000")
 })
