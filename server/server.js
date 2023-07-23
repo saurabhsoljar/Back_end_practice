@@ -11,12 +11,12 @@
 // })
 
 
-const app = require("./app.js")
+const app = require("./app.js");
 
-const PORT = 8000
+const PORT = 8000;
 
 
 
 app.listen(PORT,()=>{
-    console.log("server: is FileListing at PORT 4000")
-})
+    console.log("server: is FileListing at PORT 8000");
+});
